@@ -1,0 +1,31 @@
+.middle-container{
+	display: flex;
+	justify-content: center;
+	height:100vh;
+	align-items: center;
+}
+.todolisting{
+
+}
+.a-single-to-do-list{
+	display: flex;
+	margin-top: 10px;
+	border:1px solid #5cb85c;
+	padding:6px;
+}
+.task-name{
+	display: flex;
+	flex-grow:6;
+	font-weight: bold;
+}
+.task-date{
+	margin-left:12px;
+	display: flex;
+	flex-grow:2;
+}
+.task-status{
+	margin-left:12px;
+	display: flex;
+
+	flex-grow:2;
+}
